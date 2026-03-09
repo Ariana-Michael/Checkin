@@ -1,0 +1,39 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#f5f5f5;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+max-width:400px;
+width:90%;
+}
+
+h1{
+margin-bottom:20px;
+}
+
+button{
+padding:12px 25px;
+background:#AFC6DB;
+border:none;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:6px;
+margin-top:20px;
+transition:0.3s;
+}
+
+button:hover{
+background:#97b5cf;
+}
